@@ -16,5 +16,5 @@ jobs:
         run: gmake package FINALPACKAGE=1
       - uses: actions/upload-artifact@v4
         with:
-          name: ViewDump-deb
+          name: LiquidAss-deb
           path: packages/*.deb
